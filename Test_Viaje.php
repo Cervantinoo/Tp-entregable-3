@@ -12,9 +12,9 @@ include_once('modulos.php');
 
 //Creamos los objetos de referencia
 $objResponsable = new ResponsableV("88", "333", "Agustin", "Lordi");
-$objPasajeroEstandar = new PasajeroEstandar("marco", "galan", "2984345022", "37101090","25", "1");
-$objPasajeroEspecial = new PasajeroEspecial("franquito", "Ortiz", "299333333", "66666666", "26", "2", true, false, false);
-$objPasajeroVip = new PasajeroVip("veronica", "Carilao", "2984407922", "41092859","35", "3","258", 301);
+$objPasajeroEstandar = new PasajeroEstandar("marco", "galan", "11111", "11111","25", "1");
+$objPasajeroEspecial = new PasajeroEspecial("franquito", "Ortiz", "22222", "22222", "26", "2", true, false, false);
+$objPasajeroVip = new PasajeroVip("veronica", "Carilao", "33333", "33333","35", "3","258", 301);
 //$colPasajeros = array($objPasajeroEspecial, $objPasajeroVip);
 
 $objViaje = new Viaje(99,"Roca",$objResponsable,4,[],1000,0);
